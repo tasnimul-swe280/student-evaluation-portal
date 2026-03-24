@@ -1,47 +1,59 @@
-🎓 Student Evaluation Portal (C)
-Project Overview
+## Student Evaluation Portal (C)
 
-This is a console-based Student Evaluation Portal developed using the C programming language. It allows teachers to upload student marks and attendance, while students can log in securely to view their results and receive performance-based suggestions. The system also includes DIU email validation and basic authentication.
+## Project Overview  
+This is a console-based application developed using the C programming language. It helps teachers manage student academic data and allows students to view their results easily. The system also provides performance-based suggestions and alerts based on marks and attendance.
 
-🚀 Features
-Teacher registration and login system
-Student registration and login system
-DIU email validation (@diu.edu.bd)
-Upload student marks and attendance
-View student results
-Performance-based suggestions
-Alert if teacher has not uploaded data
-🛠 Technologies Used
-C Programming
-Console Application
-📸 Project Screenshots
-Main Output
+## Features  
+- Teacher registration and login  
+- Student registration and login  
+- DIU email validation system  
+- Upload student marks and attendance  
+- View student results  
+- Generate performance suggestions  
+- Alert if data is not uploaded  
 
-Teacher Portal
+## Technologies Used  
+- C Programming  
+- Console Application  
 
-Student Registration
+## Project Screenshots  
 
-Student Result & Suggestion
+### Main Output  
+![Output](Main_output.png)
 
-Teacher Not Uploaded Marks Alert
+### Teacher Portal  
+![Teacher Portal](Teacher_portal.png)
 
-📚 Learning Integration
+### Student Registration  
+![Student Registration](Student_registration.png)
 
-This project is developed based on concepts learned from:
+### Student Result & Suggestion  
+![Result](Student_result_&_suggestion.png)
 
-Google Project Management
-Google Data Analytics
-IBM Software Engineering
-Meta Version Control
-▶️ How to Run
-Compile the program:
+### Teacher Not Upload Mark Alert  
+![Alert](Teacher_not_upload_mark.png)
+
+## Learning Integration  
+This project is developed based on concepts learned from:  
+- Google Project Management  
+- Google Data Analytics  
+- IBM Software Engineering  
+- Meta Version Control  
+
+## How to Run  
+
+1. Compile the program:
+```bash
 gcc student_evaluation.c -o student_evaluation
-Run the program:
+```
+
+2. Run the program:
+```bash
 ./student_evaluation
-👨‍💻 Author
+```
 
-Md Tasnimul Islam Shad
+## Author  
+Md Tasnimul Islam Shad  
 
-📌 Conclusion
-
-This project demonstrates how C programming can be used to build a simple yet effective student evaluation system. It integrates authentication, data management, and decision-based suggestions to solve real-life academic problems efficiently.
+## Conclusion  
+This project demonstrates how C programming can be used to build a simple and efficient student evaluation system. It helps manage academic data and provides useful feedback to improve student performance.an be used to build a simple yet effective student evaluation system. It integrates authentication, data management, and decision-based suggestions to solve real-life academic problems efficiently.
